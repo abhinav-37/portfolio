@@ -1200,3 +1200,11 @@ i.fa{
   background: #fa5252 no-repeat center url(../img/button_load.gif);
   background-size:25px 25px;
 }
+::-webkit-scrollbar{
+  width:10px;
+  background-color: #2E333B;
+}
+::-webkit-scrollbar-thumb{
+  background-color:#fa5252;
+  border-radius: 3px;
+}
