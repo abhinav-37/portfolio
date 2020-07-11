@@ -17,7 +17,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       </head>
-    <body>
+    <body onload="preloader()">
+      <div id="preloader"></div>
+
+
         <nav class="nav">
           <div class="burger">
             <div class="burger__patty"></div>
@@ -314,5 +317,11 @@
           var db = firebase.firestore();
         </script>
         <script src="./js/firebase.js"></script>
+        <script>
+          let loader = document.getElementById("preloader");
+          function preloader(){
+            loader.style.display = "none"
+          }
+        </script>
     </body>
 </html>
