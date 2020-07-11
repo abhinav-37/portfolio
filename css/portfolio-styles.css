@@ -1169,3 +1169,14 @@ i.fa{
   
   color: #fa5252;
 }
+.modal-body{
+  text-align: center;
+  padding-top:50px
+}
+.modal-footer{
+  border:0
+}
+.modal-content{
+  background-color: rgba(0, 0, 0, 0.486);
+  color: white;
+}

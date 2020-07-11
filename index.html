@@ -15,7 +15,8 @@
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      </head>
     <body>
         <nav class="nav">
           <div class="burger">
@@ -224,15 +225,45 @@
                               </fieldset>
                               <fieldset>
                                 <button type="submit" id="form-submit" class="btn">Send Message</button>
-                              </fieldset>
+                               </fieldset>
                             </form>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="success_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                              <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-body">
+                                    Thanks for messeging I will reach you soon!
+                                  </div>  
+                                  <div class="modal-footer">
+                                    <button type="button" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="failture_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                              <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-body">
+                                    oops!! something hapened please ty again later!
+                                  </div>  
+                                  <div class="modal-footer">
+                                    <button type="button" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- modal end -->
                           </div>
                         </div>
                         <div class="col-md-4">
                           <div class="more-info">
                             <p>Please feel fre to contact me if you want some awsome websites to boast your digital marketing.<br><br>
                             <em>Vellore Institute of Technology,
-								<br>VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore</em></p>
+								              <br>VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore</em></p>
                           </div>
                         </div>
                       </div>
