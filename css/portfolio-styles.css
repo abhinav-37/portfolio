@@ -553,6 +553,7 @@ ul {
 }
 
 .contact-content button {
+  position: relative;
   display: inline-block;
   background-color: #fa5252;
   color: #fff;
@@ -1188,4 +1189,14 @@ i.fa{
   background: #333 no-repeat center url(../img/Eclipse-1s-286px.gif);
   background-size: 100px 100px ;
 
+}
+#button_load{
+  display: none;
+  right:0.23%;
+  bottom: -1%;
+  position: absolute;
+  height:40px;
+  width:100%;
+  background: #fa5252 no-repeat center url(../img/button_load.gif);
+  background-size:25px 25px;
 }
