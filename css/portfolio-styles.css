@@ -1205,6 +1205,6 @@ i.fa{
   background-color: #2E333B;
 }
 ::-webkit-scrollbar-thumb{
-  background-color:#fa5252;
+  background-color:#fa52526c;
   border-radius: 3px;
 }
