@@ -508,7 +508,7 @@ ul {
 }
 
 .contact-content .heading {
-  padding-top: 35%;
+  padding-top: 15%;
 }
 
 .contact-content .contat-form {
@@ -1207,4 +1207,7 @@ i.fa{
 ::-webkit-scrollbar-thumb{
   background-color:#fa52526c;
   border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:active{
+  background-color: #fa5252;
 }
